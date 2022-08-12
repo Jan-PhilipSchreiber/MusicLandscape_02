@@ -1,2 +1,4 @@
-package MusicLandscape.entities;public class Event {
+package MusicLandscape.entities;
+
+public class Event {
 }
