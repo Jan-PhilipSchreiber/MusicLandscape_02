@@ -17,6 +17,18 @@ public class Track {
 
     public Track() {
     }
+   public Track(String title) {
+        this.title=title;
+    }
+   public Track(Track t) {
+        this.duration=t.duration;
+        this.performer=new Artist(t.performer);
+        //unsicher, später drüber schauen
+       this.title=t.title;
+       this.writer=new Artist(t.writer);
+       this.year=t.year;
+
+    }
 
 
     public int getDuration() {
